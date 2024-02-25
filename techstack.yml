@@ -1,0 +1,43 @@
+repo_name: Wladoo/holonix
+report_id: d2c716ae952e3e5a2d4c31f32f5f43f7
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-25T10:26:04+00:00'
+requested_by: thedavidmeister
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/Wladoo/holonix/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: David Meister
+  last_updated_on: 2019-06-26 08:42:43.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Wladoo/holonix
+  detection_source: Repo Metadata
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/Wladoo/holonix
+  detection_source: Repo Metadata
